@@ -62,7 +62,7 @@ The main entry point of the program where the user interacts with the system.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/YourUsername/array-operations-program.git
+   git clone https://github.com/Sudhanshu-Kulkarni/array-operations-program.git
 2. Navigate to the repository folder and compile the Java files:
    - javac *.java
 3. Run the program using the Main class:
