@@ -27,6 +27,21 @@ class ArrayFunctions{
 		display(even);
 	}
 
+	public void min(int[] array) {
+	    
+	    int minIndex = 0;
+	    int minDifference = Integer.MAX_VALUE; // Initialize to the maximum possible value.
+
+	    for (int i = 1; i < array.length - 1; i++) {
+	        int diff = array[i + 1] - array[i];
+	        if (diff < minDifference) {
+	            minDifference = diff;
+	            minIndex = i;
+	        }
+	    }
+
+	    displayIndex(minIndex-1); // Call the displayIndex method with the correct index.
+}
 	
 
 }
