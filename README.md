@@ -7,8 +7,6 @@ This repository contains a Java program designed to perform various operations o
 - [Features](#features)
 - [Classes and Methods](#classes-and-methods)
 - [How to Run](#how-to-run)
-- [Example Usage](#example-usage)
-- [Contributing](#contributing)
 
 ## Overview
 The program is designed to perform operations on arrays entered by the user. It processes the array to display results based on specific operations, such as finding odd/even numbers or identifying the index with the smallest difference between consecutive elements.
