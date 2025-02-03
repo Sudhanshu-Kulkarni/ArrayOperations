@@ -11,7 +11,7 @@ class Main {
         UserInput in = new UserInput();
         ArrayFunctions functions = new ArrayFunctions();
 
-        // Accept user input
+        // Accept user input and store it in userArray
         int[] userArray = in.arrayInput();
 
         // Separate even and odd numbers
@@ -20,7 +20,7 @@ class Main {
         // Find the minimum neighboring distance index
         functions.min(userArray);
 
-        // Convert array to ArrayList and vice versa
+        // Convert array to ArrayList
         ArrayList<Integer> arrayList = functions.arrayToArrayList(userArray);
         System.out.println("Converted ArrayList: " + arrayList);
 
