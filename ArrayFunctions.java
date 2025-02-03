@@ -72,8 +72,8 @@ class ArrayFunctions{
 	        array[i] = list.get(i);
 	    }
 	    return array; // Return the resulting array
-	}
-
+	} 
+}
 	
 
 
