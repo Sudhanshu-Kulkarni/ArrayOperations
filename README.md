@@ -23,8 +23,11 @@ The program consists of the following classes:
 
 ## Classes and Methods
 
-### ArrayFunctions Class
+# ArrayFunctions Class
+
 This class provides methods for array-related operations.
+
+## Methods
 
 - **`void display(ArrayList<Integer> array)`**  
   Displays the contents of an `ArrayList`.
@@ -37,6 +40,12 @@ This class provides methods for array-related operations.
 
 - **`void min(int[] array)`**  
   Finds the smallest difference between consecutive elements in the array and displays the index of the first element in the pair.
+
+- **`ArrayList<Integer> arrayToArrayList(int[] array)`**  
+  Converts an array to an `ArrayList` and returns it.
+
+- **`int[] arrayListToArray(ArrayList<Integer> list)`**  
+  Converts an `ArrayList` back to an array and returns the resulting array.
 
 ---
 
